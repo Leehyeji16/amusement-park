@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>놀이동산</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <input type="checkbox" id="nav-toggle" hidden>
+
+    <header class="site-header">
+        <div class="centerbox">
+            <!-- 햄버거 버튼(모바일) -->
+            <label for="nav-toggle" class="hamburger mo" aria-label="메뉴 열기">
+                <span></span>
+            </label>
+
+            <!-- 로고 -->
+            <h1 class="logo">
+                <a href="/">
+                    <img src="images/logo.png" alt="LOTTE WORLD">
+                </a>
+            </h1>
+
+            <!-- 데스크탑 GNB -->
+            <nav class="pc-gnb pc">
+                <ul class="gnb">
+                    <li><a href="sub2.html">즐길거리</a></li>
+                    <li><a href="#">요금/우대혜택</a></li>
+                    <li><a href="#">이용가이드</a></li>
+                    <li><a href="#">소통서비스</a></li>
+                    <li><a href="#">더 알아보기</a></li>
+                </ul>
+            </nav>
+
+            <!-- 데스크탑 아이콘 링크 -->
+            <div class="icons pc">
+                <a href="#">검색</a>
+                <a href="#">이벤트</a>
+                <a href="#">단체</a>
+                <a href="#">기획전</a>
+                <a href="#">상품몰</a>
+            </div>
+        </div>
+
+        <!-- 모바일 드로어 -->
+        <div class="mo-drawer">
+            <label for="nav-toggle" class="drawer-dim" aria-hidden="true"></label>
+            <aside class="drawer-panel" role="dialog" aria-label="모바일 내비게이션">
+                <div class="drawer-head">
+                    메뉴
+                    <label for="nav-toggle" class="btn-close" aria-label="메뉴 닫기">✕</label>
+                </div>
+                <nav class="drawer-nav">
+                    <ul class="gnb">
+                        <li><a href="sub2.html">즐길거리</a></li>
+                        <li><a href="#">요금/우대혜택</a></li>
+                        <li><a href="#">이용가이드</a></li>
+                        <li><a href="#">소통서비스</a></li>
+                        <li><a href="#">더 알아보기</a></li>
+                    </ul>
+                </nav>
+                <div class="drawer-icons">
+                    <a href="#">검색</a>
+                    <a href="#">이벤트</a>
+                    <a href="#">단체</a>
+                    <a href="#">기획전</a>
+                    <a href="#">상품몰</a>
+                </div>
+            </aside>
+        </div>
+    </header>
+
+    <!-- 팝업 -->
+    <section class="hero">
+        <div class="centerbox">
+            <div class="hero-text">
+                <span class="season">2025 여름휴가</span>
+                <div class="namebox">
+                    <div class="name1">목</div>
+                    <div class="name2">적</div>
+                    <div class="name3">지</div>
+                    <div class="name4">는</div>
+                    <div class="name5">놀</div>
+                    <div class="name6">이</div>
+                    <div class="name7">동</div>
+                    <div class="name8">산</div>
+                </div>
+                <p class="subtitle">새로운 여행이 시작됩니다</p>
+                <p class="date">06.23(월) ~ 12.31(수)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 이벤트 -->
+    <section class="event-section">
+        <div class="centerbox">
+            <div class="event-head">
+                <span class="eyebrow">Main Event</span>
+                <h2>Water Festival with 포켓몬</h2>
+                <p class="date">2025.05.23 ~ 2025.09.04</p>
+            </div>
+
+            <div class="event-grid">
+                <!-- 카드 1 -->
+                <article class="card">
+                    <img class="thumb" src="images/main1.png" alt="흥겨운 피카츄 군" />
+                    <div class="label">흠뻑흠뻑 존</div>
+                </article>
+
+                <!-- 카드 2 -->
+                <article class="card">
+                    <img class="thumb" src="images/main2.png" alt="특설무승 군" />
+                    <div class="label">뽀송뽀송 존</div>
+                </article>
+
+                <!-- 카드 3 -->
+                <article class="card">
+                    <img class="thumb" src="images/main3.png" alt="MD/F&B" />
+                    <div class="label">MD/F&B</div>
+                </article>
+            </div>
+
+            <div class="event-footer">
+                <a class="more" href="#">
+                    자세히 보기 <span aria-hidden="true">➜</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- 운영정보-->
+    <section class="status">
+        <div class="centerbox">
+            <header class="status-head">
+                <h2>실시간 운영정보</h2>
+                <p class="sub">실시간으로 변동될 수 있으니 확인해 주세요.</p>
+            </header>
+
+            <div class="status-card">
+                <!-- 장식 물방울 (선택) -->
+                <span class="deco deco--left" aria-hidden="true"></span>
+                <span class="deco deco--right" aria-hidden="true"></span>
+
+                <div class="status-body">
+                    <div class="info">
+                        <p class="row"><strong>운휴 기구:</strong> 후룸라이드</p>
+                        <p class="row"><strong>운휴 시간:</strong> 12:00~15:30</p>
+                        <p class="row"><strong>운휴 일자:</strong> 2025.06.23.</p>
+
+                        <ul class="notes">
+                            <li>·폭우, 강풍, 기온 저하 등 기상 악화 시<br> 이벤트나 운행이 중단될 수 있으니 양해해주시기 바랍니다.</li>
+                            <li>·방문 예정일의 운휴 일정이 확정 전이라면 <br> 방문일 전에 운휴 일정을 재확인하시기 바랍니다.</li>
+                            <li>·운휴 일정은 현장 상황에 따라 예고 없이 변경될 수 있습니다.</li>
+                        </ul>
+                    </div>
+
+                    <figure class="media">
+                        <img src="images/cute.png" alt="후룸라이드 안내 이미지">
+                        <!-- <figcaption class="badge badge--left">2/2</figcaption> -->
+                        <span class="badge badge--right">01</span>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 가이드맵 -->
+    <section class="guide">
+        <div class="centerbox">
+            <h2 class="section-title">가이드맵</h2>
+
+            <!-- 상단 탭 버튼 -->
+            <div class="tab-actions" role="tablist">
+                <button class="tab is-active" role="tab">국문 가이드 맵 다운로드</button>
+                <button class="tab" role="tab">English guide map</button>
+                <button class="tab" role="tab">下载中文版地图</button>
+            </div>
+
+            <!-- 텍스트 -->
+            <div class="lead">
+                <p class="headline">가이드맵과 함께</p>
+                <p class="sub">100% 즐기는 즐거움의 나라!</p>
+            </div>
+
+            <!-- 맵 이미지 -->
+            <figure class="map-figure">
+                <img src="images/map1.png" alt="테마파크 가이드맵 일러스트">
+            </figure>
+
+            <div class="cta">
+                <a href="#" class="btn">네이버지도 보러가기</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 교통/오시는길 -->
+    <section class="wayto">
+        <div class="centerbox">
+            <div class="address-row">
+                <div class="place">
+                    <img src="images/point.png" alt="" class="pin" />
+                    <div>
+                        <strong class="place-name">롯데월드 어드벤처</strong>
+                        <p class="place-addr">서울특별시 송파구 올림픽로 240</p>
+                    </div>
+                </div>
+                <a class="btn ghost" href="#">교통편 별 안내</a>
+            </div>
+
+            <div class="grid">
+                <article class="card">
+                    <h3 class="card-title">지하철 이용시</h3>
+                    <ul class="metro">
+                        <li>
+                            <span class="badge line2">2호선</span>
+                            <span class="station">잠실역 4번 출구</span>
+                        </li>
+                        <li>
+                            <span class="badge line8">8호선</span>
+                            <span class="station">잠실역 4번 출구</span>
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h3 class="card-title">버스 이용시</h3>
+                    <ul class="bus">
+                        <li>
+                            <span class="badge bus-blue">간선</span>
+                            <span class="nember">301, 321, 341, 360, 362</span>
+                        </li>
+                        <li>
+                            <span class="badge bus-green">지선</span>
+                            <span class="nember">3217, 3313, 3315, 3317, 3417</span>
+                        </li>
+                        <li>
+                            <span class="badge bus-red">광역</span>
+                            <span class="nember"> 9403, 9507, 9701, 9802</span>
+
+                        </li>
+                        <li>
+                            <span class="badge bus-air">공항</span>
+                            <span class="nember">6006</span>
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h3 class="card-title">자가용/주차 이용 시</h3>
+                    <p class="info">주차장 A/B/C/D 이용 가능, 요금 및 위치는 안내 페이지 참고</p>
+                    <a href="#" class="link">자세히 보기</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 푸터 링크(간단) -->
+    <footer class="site-footer">
+        <div class="centerbox">
+            <nav class="foot-links">
+                <a href="#">놀이동산 소개</a>
+                <a href="#">ESG</a>
+                <a href="#">채용·입점·사업협력</a>
+                <a href="#">이용약관</a>
+                <a href="#" class="emph">개인정보처리방침</a>
+                <a href="#">사이트맵</a>
+                <a href="#">고객센터</a>
+            </nav>
+            <p class="copy">COPYRIGHT © 2018 LOTTEWORLD. ALL RIGHTS RESERVED</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

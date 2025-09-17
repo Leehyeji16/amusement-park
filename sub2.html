@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>롯데월드 어드벤처</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <input type="checkbox" id="nav-toggle" hidden>
+
+    <header class="site-header">
+        <div class="centerbox">
+            <!-- 햄버거 버튼(모바일) -->
+            <label for="nav-toggle" class="hamburger mo" aria-label="메뉴 열기">
+                <span></span>
+            </label>
+
+            <!-- 로고 -->
+            <h1 class="logo">
+                <a href="/">
+                    <img src="images/logo.png" alt="LOTTE WORLD">
+                </a>
+            </h1>
+
+            <!-- 데스크탑 GNB -->
+            <nav class="pc-gnb pc">
+                <ul class="gnb">
+                    <li><a href="#">즐길거리</a></li>
+                    <li><a href="#">요금/우대혜택</a></li>
+                    <li><a href="#">이용가이드</a></li>
+                    <li><a href="#">소통서비스</a></li>
+                    <li><a href="#">더 알아보기</a></li>
+                </ul>
+            </nav>
+
+            <!-- 데스크탑 아이콘 링크 -->
+            <div class="icons pc">
+                <a href="#">검색</a>
+                <a href="#">이벤트</a>
+                <a href="#">단체</a>
+                <a href="#">기획전</a>
+                <a href="#">상품몰</a>
+            </div>
+        </div>
+
+        <!-- 모바일 드로어 -->
+        <div class="mo-drawer">
+            <label for="nav-toggle" class="drawer-dim" aria-hidden="true"></label>
+            <aside class="drawer-panel" role="dialog" aria-label="모바일 내비게이션">
+                <div class="drawer-head">
+                    메뉴
+                    <label for="nav-toggle" class="btn-close" aria-label="메뉴 닫기">✕</label>
+                </div>
+                <nav class="drawer-nav">
+                    <ul class="gnb">
+                        <li><a href="#">즐길거리</a></li>
+                        <li><a href="#">요금/우대혜택</a></li>
+                        <li><a href="#">이용가이드</a></li>
+                        <li><a href="#">소통서비스</a></li>
+                        <li><a href="#">더 알아보기</a></li>
+                    </ul>
+                </nav>
+
+                <div class="drawer-icons">
+                    <a href="#">검색</a>
+                    <a href="#">이벤트</a>
+                    <a href="#">단체</a>
+                    <a href="#">기획전</a>
+                    <a href="#">상품몰</a>
+                </div>
+            </aside>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>어드벤처</h1>
+            <p>아이들이 세상의 중심인 꿈과 환상, 즐거운 어드벤처 속으로!</p>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking-section">
+        <div class="booking-container">
+            <div class="booking-form">
+                <h2 class="form-title">L.POINT 회원 어드벤처 + 매직아일랜드</h2>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" placeholder="체크인" readonly>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="인원" readonly>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="객실" readonly>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <select>
+                            <option>경기/인천/강원</option>
+                            <option>서울</option>
+                            <option>부산/경남</option>
+                            <option>기타 지역</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select>
+                            <option>대구/경북/충북</option>
+                            <option>대전/충남</option>
+                            <option>광주/전라</option>
+                            <option>제주</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select>
+                            <option>펜션/리조트</option>
+                            <option>호텔</option>
+                            <option>모텔</option>
+                            <option>게스트하우스</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button class="search-btn">
+                    숙박권 통합검색
+                    <span class="help-icon">?</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- Section 2: 놀이기구 소개 -->
+    <section class="attractions-section">
+        <div class="attractions-container">
+            <!-- 상단 안내 바 -->
+            <div class="info-banner">
+                <div class="mascot-icon">🐯</div>
+                <p class="info-text">정기 점검 <strong>바이킹</strong> 놀이 운휴로 인한 <strong>스페셜 티켓</strong> 안내</p>
+            </div>
+
+            <!-- 놀이기구 그리드 -->
+            <div class="attractions-grid">
+                <!-- 첫 번째 행 -->
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="images/sub2_1.png" alt="5G 체험존">
+                    </div>
+                    <div class="attraction-info">
+                        <span class="attraction-category">특별체험존</span>
+                        <h3 class="attraction-title">5G 체험존</h3>
+                    </div>
+                </div>
+
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="images/sub2_2.png" alt="스포츠 게임">
+                    </div>
+                    <div class="attraction-info">
+                        <span class="attraction-category">어드벤처</span>
+                        <h3 class="attraction-title">스포츠 게임 + 볼링 체험존</h3>
+                    </div>
+                </div>
+
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="images/sub2_3.png" alt="파라오의 분노">
+                    </div>
+                    <div class="attraction-info">
+                        <span class="attraction-category">어드벤처</span>
+                        <h3 class="attraction-title">카트라이더레이싱월드</h3>
+                    </div>
+                </div>
+
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="images/sub2_4.png" alt="롯데월드 모노레일">
+                    </div>
+                    <div class="attraction-info">
+                        <span class="attraction-category">어드벤처</span>
+                        <h3 class="attraction-title">월드모노레일(실내운영)</h3>
+                    </div>
+                </div>
+
+                <!-- 두 번째 행 -->
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="images/sub2_5.png" alt="자이로드롭">
+                    </div>
+                    <div class="attraction-info">
+                        <span class="attraction-category">매직아일랜드</span>
+                        <h3 class="attraction-title">자이로드롭</h3>
+                    </div>
+                </div>
+
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="images/sub2_6.png" alt="자이로스윙">
+                    </div>
+                    <div class="attraction-info">
+                        <span class="attraction-category">매직아일랜드</span>
+                        <h3 class="attraction-title">자이로스윙</h3>
+                    </div>
+                </div>
+
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="images/sub2_7.png" alt="자이로스핀">
+                    </div>
+                    <div class="attraction-info">
+                        <span class="attraction-category">매직아일랜드</span>
+                        <h3 class="attraction-title">자이로스핀</h3>
+                    </div>
+                </div>
+
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="images/sub2_8.png" alt="범퍼카">
+                    </div>
+                    <div class="attraction-info">
+                        <span class="attraction-category">매직아일랜드</span>
+                        <h3 class="attraction-title">범퍼카</h3>
+                    </div>
+                </div>
+
+                <!-- 세 번째 행 -->
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="images/sub2_9.png" alt="혜성특급">
+                    </div>
+                    <div class="attraction-info">
+                        <span class="attraction-category">어드벤처</span>
+                        <h3 class="attraction-title">혜성특급</h3>
+                    </div>
+                </div>
+
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="images/sub2_10.png" alt="급류타기">
+                    </div>
+                    <div class="attraction-info">
+                        <span class="attraction-category">매직아일랜드</span>
+                        <h3 class="attraction-title">자이로드롭</h3>
+                    </div>
+                </div>
+
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="images/sub2_11.png" alt="신밧드의 모험">
+                    </div>
+                    <div class="attraction-info">
+                        <span class="attraction-category">어드벤처</span>
+                        <h3 class="attraction-title">신밧드의모험</h3>
+                    </div>
+                </div>
+
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="images/sub2_12.png" alt="회전목마">
+                    </div>
+                    <div class="attraction-info">
+                        <span class="attraction-category">어드벤처</span>
+                        <h3 class="attraction-title">회전목마</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 푸터 링크(간단) -->
+    <footer class="site-footer">
+        <div class="centerbox">
+            <nav class="foot-links">
+                <a href="#">놀이동산 소개</a>
+                <a href="#">ESG</a>
+                <a href="#">채용·입점·사업협력</a>
+                <a href="#">이용약관</a>
+                <a href="#" class="emph">개인정보처리방침</a>
+                <a href="#">사이트맵</a>
+                <a href="#">고객센터</a>
+            </nav>
+            <p class="copy">COPYRIGHT © 2018 LOTTEWORLD. ALL RIGHTS RESERVED</p>
+        </div>
+    </footer>
+
+</body>
+<script src="script.js"></script>
+
+</html>
